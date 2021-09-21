@@ -1,0 +1,9 @@
+#python:
+from ghost_sim2d import *
+sim2d(
+    4,
+    7,
+    tsim=4e-9,
+    snapshots=True,
+)
+#end_python:

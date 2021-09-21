@@ -1,0 +1,18 @@
+#python:
+from ghost_sim3d import *
+import math
+
+N = 7
+
+sim3d(
+    #math.floor(math.pow(N,2)/2.0),
+    25,
+    math.pow(N,2),
+    #tsim=130*5e-11,
+    #tsim=130*5e-12,
+    tsim=170e-11,
+    #tsim=130*5e-13,
+    resistance=50,
+    snapshots=True,
+)
+#end_python:
